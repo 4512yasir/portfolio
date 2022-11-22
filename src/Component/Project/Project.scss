@@ -1,0 +1,104 @@
+.Project{
+flex: 4;
+background-color: black;
+width: 100vw;
+// background-size: cover;
+height: 100%;
+color: azure;
+text-align: center;
+justify-content: center;
+align-items: center;
+   
+
+.projetit{
+color: azure;
+text-align: center;
+justify-content: center;
+align-items: center;
+// margin-top: 30px;
+}
+.project-detail{
+    
+    p{
+        font-size: 50px;
+    }
+}
+.projects{
+  margin-top: 60px;
+ position: relative;
+    padding: 0;
+//    width: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 100px;
+
+    img{
+        height: 400px;
+        width: 500px;
+        // border-radius: 50%;
+        margin-top: 20px;
+        border: 5px outset rgba(255, 255, 255, 0.6);
+        transition: 0.5s;
+   
+      
+    }
+      
+
+    .project-text{
+    opacity: 0;
+    margin-top: 100px;
+    margin-left: 380px;
+        font-size: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        color: #c0c2c4;
+       
+        width: 300px;
+        height: 300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+        text-align: center;
+
+        &:hover{
+            opacity: 1;
+            background-color: gray;
+            width: 500px;
+                height: 1050px;
+           
+        }
+
+        h1{
+            color: aqua;
+        }
+.short-des{
+    margin-top: 5px;
+}
+.description{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.buttons{
+   
+    button{
+        height: 60px;
+        width: 100px;
+        border-radius: 30px;
+        margin-top: 30px;
+        background-color: aqua;
+
+&:hover {
+        background-color: blue;
+    }
+       
+       
+    }
+}
+
+    }
+}
+}

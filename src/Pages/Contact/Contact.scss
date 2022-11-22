@@ -1,0 +1,55 @@
+.contact{
+background-image: url(../../Assets//bg2.jpg);
+flex: 4;
+width: 100%;
+color: aliceblue;
+    h1{
+        // text-decoration: underline;
+        margin-top: 30px;
+        margin-left: 200px;
+        color: aliceblue;
+
+        span{
+            color: aqua;
+        }
+    }
+    .ico{
+        display: flex;
+        flex-direction: column;
+
+        .fb{
+            font-size: 70px;
+            margin-left: 60px;
+            color: aqua;
+            padding: 10px 10px 10px 10px ;
+        }
+
+     
+        h4 {
+                margin-left: 65px;
+             text-decoration: none;
+                
+       }
+      
+    }
+
+  .copy{
+       display: flex;
+     justify-content: center;
+     align-items: center;text-align: center;
+        // text-align: center;
+        // margin-left: 30px;
+            margin-top: 130px;
+
+
+            .fa{
+                padding: 5px 5px 5px 5px;
+                font-size: 30px;
+            }
+       
+    h3 {
+            text-align: center;
+            // margin-top: 130px;
+        }
+  }
+}
