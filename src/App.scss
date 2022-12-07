@@ -40,6 +40,13 @@ body {
     height: 100%;
 }
 
+@media screen and (min-width:764px) {
+
+    .App{
+        display: flex;
+    }
+    
+}
 
 
 
